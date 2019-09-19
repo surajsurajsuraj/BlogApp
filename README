@@ -1,6 +1,7 @@
 # Blog
 Implementation of all 7 RESTful routes.
 Steps to run:
+    0.)  Clone or download.
     1.)  You should start with "npm init"
     2.)  The dependencies can be seen in package.json file. You can install it using "npm install dependencies_name --save".
     3.)  Configure mongoose from the documentation, I was working on goormide which has a container that supports Ubuntu 14.x,
