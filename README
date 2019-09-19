@@ -1,2 +1,10 @@
 # Blog
-Implementation of all 7 RESTful routes
+Implementation of all 7 RESTful routes.
+Steps to run:
+    1.)  You should start with "npm init"
+    2.)  The dependencies can be seen in package.json file. You can install it using "npm install dependencies_name --save".
+    3.)  Configure mongoose from the documentation, I was working on goormide which has a container that supports Ubuntu 14.x,
+    4.)  So mongoose's latest version that supports Ubuntu 14.x is 4.0. You should install it for better performance. 
+    5.)  You will encounter some deprecation warning from mongoose just do as written in docs for the particular warning.
+    6.)  ./mongod is command to start database, you should leave it running.
+    7.)  Finally type "node app.js" and see the magic.
